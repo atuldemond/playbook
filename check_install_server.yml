@@ -4,6 +4,7 @@
    tasks:
    - name: i want ping all nodes
      ping:
+
    - name: install webserver on nodes
      apt:
         name: apache2
