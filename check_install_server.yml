@@ -8,7 +8,7 @@
      apt:
         name: apache2
         state: present
-   - name: i want to start apache2 server
+   - name: i want to start webserver
      services: 
       name: apache2
       state: started
