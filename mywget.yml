@@ -6,3 +6,6 @@
       apt:
         name: wget
         state: present
+
+        #ansible all -i myhosts -m setup
+        #ansible all -i myhosts -m setup -a filter="*family*"
